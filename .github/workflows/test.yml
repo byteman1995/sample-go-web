@@ -25,7 +25,7 @@ jobs:
             
           - name: Test code
             run: |
-                go test -v -race ./..
+                go test -race
 
 
 
